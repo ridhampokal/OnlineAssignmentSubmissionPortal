@@ -41,7 +41,6 @@ require_once __DIR__ . '/../includes/header.php';
                         <th>Deadline</th>
                         <th>Created At</th>
                         <th>Submissions</th>
-                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -54,11 +53,6 @@ require_once __DIR__ . '/../includes/header.php';
                             <td>
                                 <a href="/assignment_portal/public/view_submissions.php?assignment_id=<?= $a['id'] ?>" class="btn btn-sm btn-outline-primary rounded-pill">
                                     View Submissions
-                                </a>
-                            </td>
-                            <td>
-                                <a href="/assignment_portal/public/grade_submission.php?submission_id=<?= $a['id'] ?>" class="btn btn-sm btn-outline-success rounded-pill">
-                                    Grade Now
                                 </a>
                             </td>
                         </tr>
